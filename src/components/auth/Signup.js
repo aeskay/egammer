@@ -14,7 +14,8 @@ function Signup() {
     const handleSubmit = (e)=>{
         const user =[]
         user.push(email,fname,lname,pass)
-        dispatch(addUser(user))
+        dispatch(addUser(user));
+        history.push('/')
         e.preventDefault();
         
     }
