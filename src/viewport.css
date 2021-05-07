@@ -1,0 +1,52 @@
+
+@media (max-width:1080px) {
+    .navDiv{
+      display: none;
+    }
+    .navDivMini{
+      display: flex;
+      justify-content: space-between;
+      padding:20px;
+    }
+    .nav-menu-div a{
+      display: block;
+      
+    }
+    .nav-menu-div {
+      display: block;
+    }
+    .nav-menu a{
+      padding:10px 5px;
+      margin:5px 0px;
+    }
+    .nav-user a{
+      margin:10px -5px;
+    }
+
+    .nav-logo{
+        font-size: x-large;
+        font-weight: bold;
+        margin-top:-10px
+      }
+
+
+  }
+  
+  @media (min-width:1080px) {
+    .navDivMini{
+      display: none;
+    }
+  
+  }
+
+  @media (max-width:575px) {
+    .button-large{
+      display: none;
+    }
+  }
+
+  @media (min-width:575px) {
+    .button-small{
+      display: none;
+    }
+  }

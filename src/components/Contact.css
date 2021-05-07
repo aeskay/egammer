@@ -1,0 +1,93 @@
+
+#contact{
+      margin-top: 30px;
+    padding: 30px 0px;
+    
+  
+  }
+  
+  textarea {
+    font-family: 'Quicksand', sans-serif;
+    color: #212529;
+    font-size: 1.1rem;
+    width: 84%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #f2f6f8;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+    padding: 10px 10px 10px 35px;
+    margin: 6px 0px 6px 7px;
+  }
+
+  
+  .formIcon{
+    color: #57565c;
+    height: 1.3rem;
+    position: absolute;
+    left: 1.5rem;
+    top: 1.1rem;
+  }
+  
+  .formBtn {
+    font-family: 'Quicksand', sans-serif;
+      font-weight: bold;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding: 0 3rem;
+    border: 0;
+    border-radius: 3rem;
+    background-image:linear-gradient(131deg, #242424, #1b1b1b, #141414, #000000);
+    background-size: 300% 100%;
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .formBtn:hover:enabled {
+    box-shadow: 0 0.5em 0.5em -0.4em #3d3d3dba;
+    background-size: 100% 100%;
+    transform: translateY(-0.15em);
+    background: red;
+  }
+  
+  .input-icons i {
+    position: absolute;
+  }
+  
+  .input-icons {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .icon {
+    padding: 18px 0px 10px 10px;
+    min-width: 40px;
+  }
+  
+  .otherContact{
+    padding: 0px 10px;
+  
+  }
+  
+  .contSocIcon{
+    font-size: 30px;
+    margin: 5px;
+    color: rgb(12, 12, 12);
+    transition: ease-in 500ms;
+    outline: none;
+  }
+  .contSocIcon:hover{
+    color: red;
+    font-size: 36px;
+  }
+  
+  .footerBtn{
+    background-color: black;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
+    padding: 15px 0px;
+    color: grey;
+  }

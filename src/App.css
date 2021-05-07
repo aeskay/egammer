@@ -1,0 +1,339 @@
+body{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navDiv{
+  display:grid ;
+  grid-template-columns: 30% 70%;
+
+  padding:  10px 30px;
+  align-items: center;
+  background-color: transparent;
+}
+
+.nav-menu-div{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.nav-logo{
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: 'Zen Dots', cursive;
+  
+}
+.nav-logo a:hover{
+  text-decoration: none;
+}
+
+
+.nav-logo a{
+  color:white;
+  padding-bottom: 10px;
+  border-bottom: 2px solid red;
+}
+
+.nav-menu a{
+  margin: 0px 10px;
+  color:rgb(194, 194, 194);
+  font-weight: bold;
+  font-family: 'Original Surfer', cursive;
+  transition: ease-in 500ms;
+  padding: 10px 10px;
+}
+
+.nav-user a{
+  margin: 0px 10px;
+  padding: 10px 10px;
+  color:rgb(194, 194, 194);
+  font-weight: bold;
+  font-family: 'Original Surfer', cursive;
+  transition: ease-in 500ms;
+}
+
+.headText{
+  font-family: 'Freckle Face', cursive;
+  font-size: 3.2rem;
+  color: rgb(223, 223, 223)
+}
+
+.bodyText{
+  color:rgb(194, 194, 194);
+  font-weight: bold;
+  font-family: 'Original Surfer', cursive;
+  font-size: 1.3rem;
+}
+
+.nav-menu a:hover,  .nav-user a:hover{
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid  red;
+
+}
+.header{
+  background: linear-gradient(to right, #141414, #000000);
+  padding: 150px 20px;
+  margin-top: -70px;
+}
+
+.header-mini{
+  background: linear-gradient(to right, #141414, #000000);
+  padding: 150px 20px 70px 20px;
+  margin-top: -70px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.miniMenu{
+  position: fixed;
+  right: 0px;
+  margin-top: 30px;
+  background: linear-gradient(to right, #141414, #000000);
+  padding: 10px;
+  z-index: 2;
+}
+
+.button-smlg{
+  margin-top: 50px;
+  background: red;
+  color: white;
+  font-weight: bold;
+  font-family: 'Zen Dots', cursive;
+  padding: 5px 20px;
+  border:none;
+  border-radius: 5px;
+  transition: ease-in-out 500ms;
+  border: 1px solid red;
+}
+
+.button-smlg:hover{
+  background: black;
+  
+}
+
+.freeBox{
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+  padding:7px 0px 7px 3px;
+}
+
+.homeRowTwo{
+  padding: 50px;
+}
+
+.badgeOne{
+  background: black;
+}
+
+.badgeTwo{
+  background: red;
+}
+.card{
+  margin: 10px;
+  background: black;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .1875rem
+}
+
+
+.card-img-actions {
+  position: relative;
+  transition: ease-in-out 500ms;
+}
+.card-img-actions:hover{
+  opacity: 0.3;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  text-align: center
+}
+
+.card-img {
+  max-width: 350px;
+  height:400px
+}
+
+.star {
+  color: red
+}
+
+.bg-cart {
+  background-color: red;
+  color: #fff;
+  transition: ease-in-out 500ms;
+  border: 1px solid red;
+}
+
+.bg-cart:hover{
+  background-color: black;
+  border: 1px solid red;
+}
+
+.bg-cart:hover {
+  color: #fff
+}
+
+.bg-buy {
+  background-color: green;
+  color: #fff;
+  padding-right: 29px
+}
+
+.bg-buy:hover {
+  color: #fff
+}
+
+.prod-name{
+  color:red;
+  transition: ease-in-out 500ms;
+  font-family: 'Original Surfer', cursive;
+  text-align: center;
+}
+
+.prod-name:hover{
+  color:rgb(143, 143, 143);
+  text-decoration: none;
+}
+
+.price{
+  color: rgb(184, 184, 184);
+}
+
+.prod-cont{
+  padding-bottom: 80px;
+}
+
+.footer{
+  background-color: rgb(0, 0, 0);
+  padding: 20px 0px 0px 0px;
+  color: rgb(197, 197, 197);
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 0px !important;
+}
+
+.card-whole{
+  max-width: 400px;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.cartPopError{
+  background-color: red;
+}
+
+.cartPopSuccess{
+  background-color: rgb(0, 0, 0);
+}
+.cartPop{
+  display: flex;
+  justify-content: space-around;
+  animation-name: pop;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  color:white;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  z-index: 3;
+  padding:5px;
+
+}
+.cartPopSuccess a{
+  text-decoration: underline;
+  color:red;
+  font-weight: bold;
+}
+
+.cartPopError a{
+  text-decoration: underline;
+  color:rgb(0, 0, 0);
+  font-weight: bold;
+}
+.cartPop a:hover{
+  color:rgb(250, 158, 158)
+}
+
+.cartPopError a:hover{
+  color:rgb(255, 255, 255)
+}
+
+@keyframes pop {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.input-number{
+  max-width:50px
+}
+
+.cart-flex{
+  margin: 2.5px;
+}
+
+.button{
+  outline: none !important;
+}
+
+.btn-plus{
+  background-color: rgb(0, 0, 0);
+}
+
+.btn-minus{
+  background-color: red
+}
+.btn-cart{
+  outline: none;
+  color: white;
+  border-radius: 0px;
+  border:none;
+  padding:7px 10px;
+  transition: ease-in 300ms;
+  opacity: 0.7;
+}
+.btn-cart:hover{
+  opacity: 2;
+  color: rgb(221, 221, 221);
+}
+
+.avatar{
+  color:black; 
+  background:red;
+  padding:7px;
+  border-radius:50%;
+  font-size: 12px;
+  height: 70px;
+  width: 50px;
+  font-weight: 900;
+}
+
+.nav-list li a{
+  color: #eee
+}
+
+.nav-list{
+  margin-left:-30px
+}
