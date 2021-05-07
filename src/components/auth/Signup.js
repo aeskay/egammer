@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
 import {addUser} from '../../features/product/userSlice'
@@ -10,7 +10,7 @@ function Signup() {
     const [pass, setPass] = useState('')
 
     const dispatch = useDispatch();
-
+    const history = useHistory();
     const handleSubmit = (e)=>{
         const user =[]
         user.push(email,fname,lname,pass)
