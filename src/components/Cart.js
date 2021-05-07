@@ -73,7 +73,7 @@ function Cart() {
                                         <span className="fa fa-minus"></span>
                                     </button>
                                 </span>
-                                        <input type="text" name="quant[2]" className="form-control input-number" value={item.inCart} onChange={modCart}/>
+                                    <span className="input-number">{item.inCart}</span>
                                 <span className="input-group-btn">
                                     <button type="button" className="btn-cart btn-plus" onClick={()=>increment(item.id)}>
                                         <span className="fa fa-plus"></span>

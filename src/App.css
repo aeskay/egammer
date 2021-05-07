@@ -287,7 +287,11 @@ body{
 }
 
 .input-number{
-  max-width:50px
+  width:50px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid rgb(206, 206, 206);
+  padding-top: 5px;
 }
 
 .cart-flex{
