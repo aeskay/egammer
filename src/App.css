@@ -341,3 +341,34 @@ body{
 .nav-list{
   margin-left:-30px
 }
+
+.animText{
+  background: url("./bg.jpg");
+  background-size: 30%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  color: rgba(0,0,0,0.08);
+  animation-name: zoomout;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes zoomout {
+  0% {
+    background-size: 30%;
+  }
+  20% {
+    background-size: 50%;
+  }
+  60% {
+    background-size: 150%;
+  }
+  80% {
+    background-size: 50%;
+  }
+  100% {
+    background-size: 30%;
+  }
+}

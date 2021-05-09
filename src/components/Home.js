@@ -11,7 +11,7 @@ function Home() {
         <div className="header">
             <div className="row">
                 <div className="col-sm-6 text-center align-self-center">
-                    <h2 className="headText">Kill or Get Killed</h2>
+                    <h2 className="headText animText">Kill or Get Killed</h2>
                     <p className="bodyText">The best PC Games just for you</p>
                     <Link to="/shop">
                         <button className="button-large button-smlg">Shop Games</button>
